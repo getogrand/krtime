@@ -1,6 +1,7 @@
 # krtime
 
 [![GoDoc](https://godoc.org/github.com/getogrand/krtime?status.svg)](https://godoc.org/github.com/getogrand/krtime)
+[![Build Status](https://travis-ci.org/getogrand/krtime.svg?branch=master)](https://travis-ci.org/getogrand/krtime)
 
 Package krtime provides helper functions that ease to use time.Time in Korea.
 
