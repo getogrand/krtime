@@ -1,3 +1,6 @@
+// Package krtime provides helper functions that ease to use time.Time in Korea.
+//
+// No more `seoul, err := time.LoadLocation("Asia/Seoul"); if err != nil { ... }; t := time.Now().In(seoul)`.
 package krtime
 
 import (
@@ -23,7 +26,7 @@ func New(t time.Time) time.Time {
 	return t.In(Seoul)
 }
 
-// Now returns the current time in location "Asia/Seoul"
+// Now returns the current time in location "Asia/Seoul".
 func Now() time.Time {
 	return New(time.Now())
 }
