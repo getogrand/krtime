@@ -1,4 +1,4 @@
-# krtime 
+# krtime
 
 [![GoDoc](https://godoc.org/github.com/getogrand/krtime?status.svg)](https://godoc.org/github.com/getogrand/krtime)
 
@@ -13,7 +13,7 @@ So much boilerplate code is required when you want to display or manipulate time
 ```go
 seoul, err := time.LoadLocation("Asia/Seoul")
 if err != nil {
-  panic("load location %q: %v", "Asia/Seoul", err)
+  panic(fmt.Errorf("load location %q: %v", "Asia/Seoul", err))
 }
 
 now := time.Now().In(seoul)
