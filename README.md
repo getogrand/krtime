@@ -60,7 +60,7 @@ todayEnd := now.New(krtime.Now()).EndOfDay()
 ```go
 import "github.com/jinzhu/now"
 import "github.com/cactus/gostrftime"
-import "github.com/hey-beauty/server-api-up/utils/krtime"
+import "github.com/getogrand/krtime"
 
 todayEnd := now.New(krtime.Now()).EndOfDay()
 timestr := gostrftime.Format("%m월 %d일 %l시%M분 %p", krtime.New(todayEnd))
