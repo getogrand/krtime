@@ -45,7 +45,7 @@ someTime := time.Now().After(1 * time.Hour)
 nowkr := krtime.New(someTime) // It returns pure time.Time
 ```
 
-### Work with jinzhu's [now](https://github.com/jinzhu/now) package
+### Work With jinzhu's [now](https://github.com/jinzhu/now) Package
 
 ```go
 import "github.com/jinzhu/now"
@@ -54,7 +54,7 @@ import "github.com/getogrand/krtime"
 todayEnd := now.New(krtime.Now()).EndOfDay()
 ```
 
-### Work with any other libraries compatible with time.Time
+### Work With Any Other Libraries Compatible With `time.Time`
 
 ```go
 import "github.com/jinzhu/now"
@@ -64,3 +64,9 @@ import "github.com/hey-beauty/server-api-up/utils/krtime"
 todayEnd := now.New(krtime.Now()).EndOfDay()
 timestr := gostrftime.Format("%m월 %d일 %l시%M분 %p", krtime.New(todayEnd))
 ```
+
+## Extracted From [heybeauty](https://heybeauty.me)
+
+## License
+
+Released under the [MIT License](https://github.com/getogrand/krtime/blob/master/License)
