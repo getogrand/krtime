@@ -54,7 +54,7 @@ import "github.com/getogrand/krtime"
 todayEnd := now.New(krtime.Now()).EndOfDay()
 ```
 
-### Work with any other library compatible with time.Time
+### Work with any other libraries compatible with time.Time
 
 ```go
 import "github.com/jinzhu/now"
