@@ -36,7 +36,7 @@ import "github.com/getogrand/krtime"
 now := krtime.Now()
 ```
 
-### Convert A Time to KST Time
+### Convert a Time to KST Time
 
 ```go
 import "time"
